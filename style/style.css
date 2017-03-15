@@ -57,10 +57,6 @@ h1 + ul > li > a {
     color: inherit !important;
 }
 
-p {
-    max-width: 950px;
-}
-
 a:link {
     color: #036;
 }
@@ -75,10 +71,30 @@ a:visited {
 
 .external-link > a {
     white-space: normal;
+}
+
+strong {
+    font-weight: 600;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 16px;
+    line-height: 1.33;
+    font-size: 28px;
+    font-weight: 300;
 } 
 
+p {
+    max-width: 950px;
+}
+
+li {
+    list-style-type: circle;
+}
+
 dt {
-    font-weight: 700;
+    font-weight: 600;
 }
 
 dt:not(:first-child) {
