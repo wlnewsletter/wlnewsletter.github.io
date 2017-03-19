@@ -92,6 +92,10 @@ h2 {
     font-weight: 300;
 }
 
+.date:not(:first-child) {
+    margin-top: 25px;
+}
+
 h3 {
     margin: 0;
     line-height: 1.33;
